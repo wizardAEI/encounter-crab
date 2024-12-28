@@ -1,14 +1,7 @@
+pub mod test3;
+
 fn main() {
 
-    let config_max = Some(3u8);
-    match config_max {
-        Some(max) => println!("The maximum is configured to be {max}"),
-        _ => (),
-    }
-
-    // concise
-    if let Some(max) = config_max {
-        println!("The maximum is configured to be {max}")
-    }
-
+    encounter_crab::test::test_a::call();
+    crate::test3::test_b::call();
 }
