@@ -17,7 +17,7 @@ fn main() {
     }
 
     let number = if number > 3 { 4 } else { 2 };
-    println!("number : {number}");
+    println!("number : {}", number);
 
     // repetition with loop
     let mut number = 4;

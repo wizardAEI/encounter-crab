@@ -9,6 +9,6 @@ fn main() {
 }
 
 fn take_ownership(s: String) -> String {
-    println!("s: {s}");
+    println!("s: {}", s);
     s
 }

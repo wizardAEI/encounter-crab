@@ -6,7 +6,8 @@ struct Rectangle {
 
 fn main() {
     let r = Rectangle {
-        width: dbg!(20 * 2), // dbg! will returns ownership of the expression's value
+        width: dbg!(20 * 2), // Prints and returns the value of a given expression for quick and dirty debugging.
+
         height: 30
     };
     let area = calculate_area(&r);

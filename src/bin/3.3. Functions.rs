@@ -6,7 +6,7 @@ fn main() {
 }
 
 fn print_labeled_measurement(value: i32, unit_label: char) {
-    println!("The measurement is: {value}{unit_label}");
+    println!("The measurement is: {}{}", value, unit_label);
 }
 
 fn scop_expression() {
@@ -16,7 +16,7 @@ fn scop_expression() {
         x + 1
     };
     
-    println!("the value of y is: {y}");
+    println!("the value of y is: {}", y);
 }
 
 fn plus_one(value: i32) -> i32 {
